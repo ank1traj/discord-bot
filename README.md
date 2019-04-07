@@ -9,4 +9,5 @@ Step - 2: Open bot.js file and edit as per your requirements.
 
 <h4> Steps for running bot on your server </h4>
 Step - 2: Open Command Prompt in the respective folder and give command "npm install".
+<br>
 Step - 1: Then write "node bot.js" and your bot is live.
