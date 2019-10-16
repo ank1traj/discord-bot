@@ -31,16 +31,22 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         args = args.splice(1);
         switch(cmd) {
             // @ankit
-            case 'Hi':
+            case 'Hi', 'Hello', 'Hey', 'Hola', 'Bonjour', 'Marhaba', 'Namaskar', 'Nǐ hǎo', 'God dag', 'Hoi', 'Hallo', 'Namaste', 'Salve', 'Konnichiwa':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'Welcome to Programming Enigma!'
+                    message: 'Hey there! Welcome to Programming Enigma'
                 });
             // case 'Hello':
             //     bot.sendMessage({
             //         to: channelID,
             //         message: 'Welcome'
             //     });
+                
+//             case 'What can you do?', 'Tell me about yourself':
+//                 bot.sendMessage({
+//                     to: channelID,
+//                     message: 'I can fetch you all your details'
+                });
                 break;
                 // Just add any case commands if you want to..
         }
